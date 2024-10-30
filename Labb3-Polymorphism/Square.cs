@@ -8,5 +8,10 @@
         {
             return Side * Side;
         }
+
+        public Square()
+        {
+            Side = 7;
+        }
     }
 }

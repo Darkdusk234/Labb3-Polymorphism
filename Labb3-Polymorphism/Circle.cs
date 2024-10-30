@@ -9,5 +9,10 @@
         {
             return Radius * Radius * _pi;
         }
+
+        public Circle()
+        {
+            Radius = 5;
+        }
     }
 }

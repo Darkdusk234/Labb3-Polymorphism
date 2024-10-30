@@ -9,5 +9,11 @@
         {
             return Width * Height;
         }
+
+        public Rectangle()
+        {
+            Width = 5;
+            Height = 3;
+        }
     }
 }
