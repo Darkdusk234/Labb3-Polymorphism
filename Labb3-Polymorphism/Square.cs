@@ -13,5 +13,10 @@
         {
             Side = 7;
         }
+
+        public Square(double side)
+        {
+            Side = side;
+        }
     }
 }
