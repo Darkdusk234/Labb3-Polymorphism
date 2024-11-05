@@ -11,5 +11,10 @@
         {
             return 0;
         }
+
+        public virtual string FormType()
+        {
+            return "";
+        }
     }
 }
