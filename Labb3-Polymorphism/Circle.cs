@@ -17,6 +17,11 @@
 
         public Circle(double radius)
         {
+            if(radius < 0)
+            {
+                radius = 5;
+            }
+
             Radius = radius;
         }
     }

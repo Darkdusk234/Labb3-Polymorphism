@@ -16,6 +16,11 @@
 
         public Square(double side)
         {
+            if (side < 0)
+            {
+                side = 7;
+            }
+
             Side = side;
         }
     }

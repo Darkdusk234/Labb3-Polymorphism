@@ -18,6 +18,16 @@
 
         public Rectangle(double width, double height)
         {
+            if(width < 0)
+            {
+                width = 5;
+            }
+
+            if(height < 0)
+            {
+                height = 0;
+            }
+
             Width = width;
             Height = height;
         }
