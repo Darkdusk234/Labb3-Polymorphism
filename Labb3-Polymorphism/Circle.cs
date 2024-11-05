@@ -5,11 +5,6 @@
         public double Radius { get; set; }
         private double _pi = 3.14;
 
-        public override double Area()
-        {
-            return Radius * Radius * _pi;
-        }
-
         public Circle()
         {
             Radius = 5;
@@ -23,6 +18,16 @@
             }
 
             Radius = radius;
+        }
+
+        public override double Area()
+        {
+            return Radius * Radius * _pi;
+        }
+
+        public override double Circumference()
+        {
+            return 2 * _pi * Radius;
         }
     }
 }
