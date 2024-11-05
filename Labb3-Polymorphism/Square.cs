@@ -28,5 +28,10 @@
         {
             return Side * 4;
         }
+
+        public override string FormType()
+        {
+            return "Square";
+        }
     }
 }
