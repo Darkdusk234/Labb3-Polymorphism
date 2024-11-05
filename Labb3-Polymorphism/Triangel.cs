@@ -37,5 +37,10 @@
             double hyp = Math.Sqrt((Width * Width + Height * Height));
             return Width + Height + hyp;
         }
+
+        public override string FormType()
+        {
+            return "Triangle";
+        }
     }
 }
