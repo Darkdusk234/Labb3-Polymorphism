@@ -4,11 +4,6 @@
     {
         public double Side { get; set; }
 
-        public override double Area()
-        {
-            return Side * Side;
-        }
-
         public Square()
         {
             Side = 7;
@@ -22,6 +17,16 @@
             }
 
             Side = side;
+        }
+
+        public override double Area()
+        {
+            return Side * Side;
+        }
+
+        public override double Circumference()
+        {
+            return Side * 4;
         }
     }
 }
