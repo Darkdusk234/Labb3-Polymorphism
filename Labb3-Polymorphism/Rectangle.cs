@@ -15,5 +15,11 @@
             Width = 5;
             Height = 3;
         }
+
+        public Rectangle(double width, double height)
+        {
+            Width = width;
+            Height = height;
+        }
     }
 }
