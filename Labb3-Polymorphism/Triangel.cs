@@ -5,11 +5,6 @@
         public double Width { get; set; }
         public double Height { get; set; }
 
-        public override double Area()
-        {
-            return (Width * Height) / 2;
-        }
-
         public Triangel()
         {
             Width = 2.3;
@@ -30,6 +25,17 @@
 
             Width = width;
             Height = height;
+        }
+
+        public override double Area()
+        {
+            return (Width * Height) / 2;
+        }
+
+        public override double Circumference()
+        {
+            double hyp = Math.Sqrt((Width * Width + Height * Height));
+            return Width + Height + hyp;
         }
     }
 }
