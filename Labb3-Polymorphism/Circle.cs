@@ -29,5 +29,10 @@
         {
             return 2 * _pi * Radius;
         }
+
+        public override string FormType()
+        {
+            return "Circle";
+        }
     }
 }
