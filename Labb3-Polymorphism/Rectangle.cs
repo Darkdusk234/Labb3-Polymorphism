@@ -5,11 +5,6 @@
         public double Width { get; set; }
         public double Height { get; set; }
 
-        public override double Area()
-        {
-            return Width * Height;
-        }
-
         public Rectangle()
         {
             Width = 5;
@@ -30,6 +25,16 @@
 
             Width = width;
             Height = height;
+        }
+
+        public override double Area()
+        {
+            return Width * Height;
+        }
+
+        public override double Circumference()
+        {
+            return (Width * 2) + (Height * 2);
         }
     }
 }
