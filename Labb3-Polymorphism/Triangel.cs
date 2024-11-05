@@ -9,5 +9,17 @@
         {
             return (Width * Height) / 2;
         }
+
+        public Triangel()
+        {
+            Width = 2.3;
+            Height = 3.1;
+        }
+
+        public Triangel(double width, double height)
+        {
+            Width = width;
+            Height = height;
+        }
     }
 }
