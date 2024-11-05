@@ -6,5 +6,10 @@
         {
             return 0;
         }
+
+        public virtual double Circumference()
+        {
+            return 0;
+        }
     }
 }
