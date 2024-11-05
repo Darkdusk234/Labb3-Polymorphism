@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            //Här visar jag Polymorphism genom att jag skapar en lista av
+            //typen Geometry, och lägger in några olika former.
+            //De olika formerna är alla lagrade som Geometry vilket gör att dom går att lägga in i listan
+            //men de är egentligen av specifika sub klasser från Geometry t.ex. Circle.
+            //Detta gör att man kommer åt de sub klassernas override av metoderna i Geometry klassen.
             List<Geometry> forms = new List<Geometry>();
             Geometry circle = new Circle(7.3);
             forms.Add(circle);

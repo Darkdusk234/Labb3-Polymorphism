@@ -20,6 +20,9 @@
             Radius = radius;
         }
 
+        //Polymorphism används här för att overridea de virtual metoderna som finns i Geometry klassen.
+        //Här gjorde jag override av metoderna för att anpassa metoderna så dom funkar för just denna
+        //klass på rätt sätt.
         public override double Area()
         {
             return Radius * Radius * _pi;
