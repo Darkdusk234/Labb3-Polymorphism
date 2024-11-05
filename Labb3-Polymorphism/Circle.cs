@@ -14,5 +14,10 @@
         {
             Radius = 5;
         }
+
+        public Circle(double radius)
+        {
+            Radius = radius;
+        }
     }
 }
