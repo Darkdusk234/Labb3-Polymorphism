@@ -36,5 +36,10 @@
         {
             return (Width * 2) + (Height * 2);
         }
+
+        public override string FormType()
+        {
+            return "Rectangle";
+        }
     }
 }
